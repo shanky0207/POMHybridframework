@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98161" started-at="2018-02-01T14:48:05Z" finished-at="2018-02-01T14:49:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="98161" started-at="2018-02-01T14:48:05Z" finished-at="2018-02-01T14:49:44Z">
+      <class name="com.qa.testcases.ContactPageTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.ContactPageTest@b62fe6d]" name="beforeMethod" is-config="true" duration-ms="21" started-at="2018-02-01T20:18:05Z" finished-at="2018-02-01T20:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcases.ContactPageTest.selectSingleContactsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.ContactPageTest@b62fe6d]" name="setUp" is-config="true" duration-ms="96192" started-at="2018-02-01T20:18:06Z" finished-at="2018-02-01T20:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectSingleContactsTest()[pri:2, instance:com.qa.testcases.ContactPageTest@b62fe6d]" name="selectSingleContactsTest" duration-ms="149" started-at="2018-02-01T20:19:42Z" finished-at="2018-02-01T20:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSingleContactsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.ContactPageTest@b62fe6d]" name="tearDown" is-config="true" duration-ms="1364" started-at="2018-02-01T20:19:42Z" finished-at="2018-02-01T20:19:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.ContactPageTest@b62fe6d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-01T20:19:43Z" finished-at="2018-02-01T20:19:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectSingleContactsTest status=SUCCESS method=ContactPageTest.selectSingleContactsTest()[pri:2, instance:com.qa.testcases.ContactPageTest@b62fe6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.qa.testcases.ContactPageTest@b62fe6d]" name="endTest" is-config="true" duration-ms="398" started-at="2018-02-01T20:19:43Z" finished-at="2018-02-01T20:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.qa.testcases.ContactPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

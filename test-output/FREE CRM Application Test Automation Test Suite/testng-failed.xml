@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
+  <test name="Free CRM App Test Cases">
+    <classes>
+      <class name="com.qa.testcases.LoginPageTest"/>
+      <class name="com.qa.testcases.HomePageTest"/>
+      <class name="com.qa.testcases.ContactPageTest"/>
+    </classes>
+  </test> <!-- Free CRM App Test Cases -->
+  <test name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.testcases.HomePageTest -->
+      <class name="com.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="teradown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginPageTest -->
+      <class name="com.qa.testcases.ContactPageTest">
+        <methods>
+          <include name="selectSingleContactsTest"/>
+          <include name="validateCreateNewContact"/>
+          <include name="setUp"/>
+          <include name="verifyContactsPageLabel"/>
+          <include name="selectMultipleContactsTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.ContactPageTest -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
